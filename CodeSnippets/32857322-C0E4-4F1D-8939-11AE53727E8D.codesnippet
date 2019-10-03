@@ -17,7 +17,10 @@ scroll = UIScrollView(frame: self.bounds)
         scroll.showsHorizontalScrollIndicator = false
         scroll.isScrollEnabled = true
         scroll.autoresizingMask = .flexibleHeight
-        addSubview(scroll)</string>
+        addSubview(scroll)
+
+
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>32857322-C0E4-4F1D-8939-11AE53727E8D</string>
 	<key>IDECodeSnippetLanguage</key>
