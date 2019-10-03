@@ -8,7 +8,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
-                       
+    &lt;#
                     })</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>76945C87-0A3D-48A4-B228-EF711B704819</string>
