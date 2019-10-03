@@ -21,7 +21,9 @@ scroll = UIScrollView(frame: self.bounds)
 
 var yPosition: CGFloat = 0
 
-scroll.contentSize = CGSize(width: 10, height: yyy)
+add
+
+scroll.contentSize = CGSize(width: 10, height: yPosition)
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>32857322-C0E4-4F1D-8939-11AE53727E8D</string>
