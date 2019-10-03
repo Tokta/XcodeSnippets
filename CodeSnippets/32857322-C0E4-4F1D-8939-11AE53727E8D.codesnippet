@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>scroll = UIScrollView(frame: self.bounds)
+        scroll.backgroundColor = .clear
+        scroll.isUserInteractionEnabled = true
+        scroll.showsHorizontalScrollIndicator = false
+        scroll.isScrollEnabled = true
+        scroll.autoresizingMask = .flexibleHeight
+        addSubview(scroll)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>32857322-C0E4-4F1D-8939-11AE53727E8D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>My Code Snippet</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
