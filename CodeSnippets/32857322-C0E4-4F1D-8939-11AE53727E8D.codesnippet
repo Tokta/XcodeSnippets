@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>scroll = UIScrollView(frame: self.bounds)
+	<string>
+scroll = UIScrollView(frame: self.bounds)
         scroll.backgroundColor = .clear
         scroll.isUserInteractionEnabled = true
         scroll.showsHorizontalScrollIndicator = false
