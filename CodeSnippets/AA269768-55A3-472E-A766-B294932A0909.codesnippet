@@ -7,7 +7,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.async {
+	<string>DispatchQueue.global(qos: .background).async { {
 
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
