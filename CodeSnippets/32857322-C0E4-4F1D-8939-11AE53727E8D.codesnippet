@@ -21,7 +21,7 @@ scroll = UIScrollView(frame: self.bounds)
 
 var yPosition: CGFloat = 0
 
-//add scroll subviews
+//add subviews to scroll
 
 scroll.contentSize = CGSize(width: 10, height: yPosition)
 </string>
