@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> let &lt;#button#&gt; = UIButton(frame: &lt;#CGRect#&gt; )
+        &lt;#button#&gt;.backgroundColor = .clear
+        &lt;#button#&gt;.addTargetClosure { (_) in
+            
+        }
+        self.addSubview(&lt;#button#&gt;)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B7D7CFF9-14F0-4F71-874A-5F4F22ACC417</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>My Code Snippet</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
