@@ -15,7 +15,6 @@
         
         super.init(frame: CGRect(x: position.x, y: position.y, width: width, height: &lt;#height#&gt;))
     
-        
     }
     
     @available(*, unavailable)
