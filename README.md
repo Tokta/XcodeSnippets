@@ -26,11 +26,11 @@ Install *fswatch*:
 Use the following script to monitor changes in the repository folder:
 
 ```
-#!/bin/bash
+#!/bin/zsh
 echo "Change directory to snippets repository"
 cd /Users/YOURPROFILENAME/Documents/GitHub/XCodeSnippets
 echo "Monitoring snippets changes..."
-fswatch -0 /Users/YOURPROFILENAME/Documents/GitHub/XCodeSnippets/CodeSnippets | xargs -0 -n 1 bash /Users/YOURPROFILENAME/Documents/GitHub/XCodeSnippets/auto_commit_push.sh
+fswatch -0 /Users/alessio/Documents/GitHub/XCodeSnippets/CodeSnippets | xargs -0 -n1 -I{} zsh /Users/alessio/Documents/GitHub/XCodeSnippets/auto_commit_push.sh
 ```
 **IMPORTANT**:
 The shell where you launch the monitor must remain open or the script will stop working!
@@ -38,19 +38,23 @@ The shell where you launch the monitor must remain open or the script will stop 
 Use the following script to automatically push changes to your GitHub:
 
 ```
-#!/bin/bash
+#!/bin/zsh
+echo "something changed.."
 NOW=$(date +"%d-%m-%Y-%T")
 git add .
+echo "changes staged"
 git commit -m "auto commit, date: $NOW" $1
+echo "new commit"
 git push origin master
 echo "Pushed new snippets to GitHub"
 echo "Monitoring snippets changes..."
+
 ```
 
 Create script to launch the monitor:
 
 ```
-#!/bin/bash
+#!/bin/zsh
 open -a Terminal /Users/YOURPROFILENAME/Documents/GitHub/XCodeSnippets/monitor.sh
 ```
 
