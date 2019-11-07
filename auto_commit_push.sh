@@ -1,6 +1,5 @@
 #!/bin/zsh
 echo "something changed.."
-sleep 60 
 NOW=$(date +"%d-%m-%Y-%T")
 git add .
 echo "changes staged"
