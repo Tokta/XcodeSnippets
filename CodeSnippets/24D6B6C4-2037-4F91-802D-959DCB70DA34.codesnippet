@@ -3,24 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>asimageview</string>
+	<string>ascontent</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let imageView = UIImageView(frame: CGRect(x: &lt;#T##CGFloat#&gt;, y: &lt;#T##CGFloat#&gt;, width: &lt;#T##CGFloat#&gt;, height: &lt;#T##CGFloat#&gt;))
-        imageView.contentMode = &lt;#.center#&gt; 
-imageView.image = UIImage(named: "&lt;#image#&gt;")
-        self.addSubview(imageView)</string>
+	<string>class &lt;#ContentName#&gt;: Content {
+
+    override func loadData(completion: @escaping () -&gt; Void) {
+        //load
+    }
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B0C451F2-6E68-413D-B273-B1DEB86E4895</string>
+	<string>24D6B6C4-2037-4F91-802D-959DCB70DA34</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIImageView</string>
+	<string>Content subclass</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

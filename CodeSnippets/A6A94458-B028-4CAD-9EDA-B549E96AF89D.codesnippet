@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ascontroller</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+import UIKit
+import Lepaya_Coordinator
+
+class &lt;#ControllerName#&gt;: Controller{
+    
+    var content = &lt;#ContentName#&gt;()
+    var contentView: &lt;#ContentViewName#&gt;!
+    
+    override func loadContent() {
+        
+        self.navigationBarTitle = localized("&lt;#title#&gt;")
+
+        self.content.loadData {
+            self.reloadContainerView()
+        }
+    }
+    
+    override func bindContentView(inContainerWithSize size: CGSize) {
+        
+        if !self.content.isLoaded(){
+            
+            self.showLoadingView()
+            
+        }else if self.content.loadError.isError{
+            
+            self.showErrorView(self.content.loadError.text)
+            
+        }else{
+            
+//            self.contentView = ContentViewRecipes(frame: CGRect(x: 0, y: 0, width: size.width, height: size.height), model: self.content)
+//            self.containerView.addSubview(self.contentView)
+            
+        }
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A6A94458-B028-4CAD-9EDA-B549E96AF89D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Controller subclass</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
