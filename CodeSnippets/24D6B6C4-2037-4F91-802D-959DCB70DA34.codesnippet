@@ -12,7 +12,7 @@
 	<string>class &lt;#ContentName#&gt;: Content {
 
     override func loadData(completion: @escaping () -&gt; Void) {
-        //load
+        
     }
 }
 </string>

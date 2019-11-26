@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ascalendar</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>eventStore.requestAccess(to: .event, completion: { (granted, error) in
+                if (granted) &amp;&amp; (error == nil) {
+                    
+                    let event = EKEvent(eventStore: eventStore)
+                    event.title = bite.details.eventName
+                    event.startDate = Date(timeIntervalSince1970inMs: bite.details.fromTime ?? 0)
+                    event.endDate = Date(timeIntervalSince1970inMs: bite.details.toTime ?? 0)
+                    event.notes = bite.details.eventDescription
+                    event.calendar = eventStore.defaultCalendarForNewEvents
+                    event.alarms = [EKAlarm(absoluteDate: Date(timeInterval: -60*60*24, since: event.startDate))]
+                    if let location = bite.details.location {
+                        event.location = location
+                    }
+                    
+                    
+                    let controller = EKEventEditViewController()
+                    event.calendar = eventStore.defaultCalendarForNewEvents
+                    controller.event = event
+                    controller.eventStore = eventStore
+                    controller.editViewDelegate = self as? EKEventEditViewDelegate
+                    self.present(controller, animated: true, completion: nil)
+                }
+            })
+            </string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9F00D36D-32BC-41AA-9D03-31BFDF07C018</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Open calendar to add event</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
