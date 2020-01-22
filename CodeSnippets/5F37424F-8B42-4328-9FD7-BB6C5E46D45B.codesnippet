@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// swiftlint:enable &lt;#function</string>
+	<string>// swiftlint:enable &lt;#function#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>5F37424F-8B42-4328-9FD7-BB6C5E46D45B</string>
 	<key>IDECodeSnippetLanguage</key>
