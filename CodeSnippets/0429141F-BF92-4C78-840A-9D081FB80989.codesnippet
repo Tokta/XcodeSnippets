@@ -18,7 +18,6 @@
         tableView.separatorStyle = .none
         tableView.sectionFooterHeight = 0.0
         tableView.register(PLProgramRow.self, forCellReuseIdentifier: "PCell")
-        tableView.register(PLJourneyRow.self, forCellReuseIdentifier: "JCell")
         addSubview(tableView)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0429141F-BF92-4C78-840A-9D081FB80989</string>
