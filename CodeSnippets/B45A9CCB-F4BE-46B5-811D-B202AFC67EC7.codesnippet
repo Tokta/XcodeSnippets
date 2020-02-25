@@ -18,7 +18,7 @@
                 longRunningFunctionTwo { dispatchGroup.leave() }
 
                 dispatchGroup.notify(queue: .main) {
-                    print("Both functions complete 👍")
+                    print("Both functions complete 👍👍")
                 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B45A9CCB-F4BE-46B5-811D-B202AFC67EC7</string>
