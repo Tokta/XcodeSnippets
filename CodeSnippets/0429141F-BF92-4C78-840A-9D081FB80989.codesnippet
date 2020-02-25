@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>astableview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>tableView = UITableView(frame: self.bounds, style: UITableView.Style.grouped)
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.backgroundColor = .clear
+        tableView.autoresizingMask = UIView.AutoresizingMask.flexibleHeight
+        tableView.tableFooterView = UIView(frame: CGRect.zero)
+        tableView.separatorStyle = .none
+        tableView.sectionFooterHeight = 0.0
+        tableView.register(PLProgramRow.self, forCellReuseIdentifier: "PCell")
+        tableView.register(PLJourneyRow.self, forCellReuseIdentifier: "JCell")
+        addSubview(tableView)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0429141F-BF92-4C78-840A-9D081FB80989</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TableView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
