@@ -31,8 +31,7 @@ class &lt;#ControllerName#&gt;: Controller{
             
 //            self.contentView = ContentViewRecipes(frame: CGRect(x: 0, y: 0, width: size.width, height: size.height), model: self.content)
 //            self.containerView.addSubview(self.contentView)
-            
-        }
+        
     }
 }
 </string>
