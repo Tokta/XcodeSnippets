@@ -28,16 +28,6 @@ class &lt;#ControllerName#&gt;: Controller{
     }
     
     override func bindContentView(inContainerWithSize size: CGSize) {
-        
-        if !self.content.isLoaded(){
-            
-            self.showLoadingView()
-            
-        }else if self.content.loadError.isError{
-            
-            self.showErrorView(self.content.loadError.text)
-            
-        }else{
             
 //            self.contentView = ContentViewRecipes(frame: CGRect(x: 0, y: 0, width: size.width, height: size.height), model: self.content)
 //            self.containerView.addSubview(self.contentView)
