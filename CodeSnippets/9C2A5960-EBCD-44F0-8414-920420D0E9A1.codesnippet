@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>asdbq</string>
+	<string>ascoordinator</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.global(qos: .background).async {
-
-}</string>
+	<string>let coor = VCCoordinator(push: &lt;#controller#&gt;, presenter: navigation)
+                &lt;#controller#&gt;.newCoordinator = coor
+                coor.start()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AA269768-55A3-472E-A766-B294932A0909</string>
+	<string>9C2A5960-EBCD-44F0-8414-920420D0E9A1</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Dispatch Bacground Async</string>
+	<string>VCCoordinator</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
