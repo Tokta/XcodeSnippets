@@ -13,7 +13,7 @@
 import UIKit
 import Lepaya_Coordinator
 
-class &lt;#ControllerName#&gt;: Controller{
+class &lt;#ControllerName#&gt;: LepayaController{
     
 }
 </string>
