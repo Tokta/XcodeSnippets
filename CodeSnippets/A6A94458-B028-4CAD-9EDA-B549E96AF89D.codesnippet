@@ -15,24 +15,6 @@ import Lepaya_Coordinator
 
 class &lt;#ControllerName#&gt;: Controller{
     
-    var content = &lt;#ContentName#&gt;()
-    var contentView: &lt;#ContentViewName#&gt;!
-    
-    override func loadContent() {
-        
-        self.navigationBarTitle = localized("&lt;#title#&gt;")
-
-        self.content.loadData {
-            self.reloadContainerView()
-        }
-    }
-    
-    override func bindContentView(inContainerWithSize size: CGSize) {
-            
-//            self.contentView = ContentViewRecipes(frame: CGRect(x: 0, y: 0, width: size.width, height: size.height), model: self.content)
-//            self.containerView.addSubview(self.contentView)
-        
-    }
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
