@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>asgn</string>
+	<string>asas</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard let navigation = self.navigationController else { return }</string>
+	<string>guard let sender = action.sender  as? UIButton else { return }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A61CE3A3-EB26-4C25-9C0C-74908500E433</string>
+	<string>3768F706-2824-4589-B02A-8BE3FEA64232</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Guard navigation</string>
+	<string>Guard sender on UIActionHandler</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

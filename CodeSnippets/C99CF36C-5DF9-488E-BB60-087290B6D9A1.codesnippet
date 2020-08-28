@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>asgn</string>
+	<string>ws</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard let navigation = self.navigationController else { return }</string>
+	<string>[weak self]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A61CE3A3-EB26-4C25-9C0C-74908500E433</string>
+	<string>C99CF36C-5DF9-488E-BB60-087290B6D9A1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Guard navigation</string>
+	<string>weak self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

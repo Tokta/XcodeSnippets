@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>asgn</string>
+	<string>asbt</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard let navigation = self.navigationController else { return }</string>
+	<string>(self, #selector(&lt;#func#&gt;), .touchUpInside)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A61CE3A3-EB26-4C25-9C0C-74908500E433</string>
+	<string>687797E8-65F0-471C-AE42-110665E9C34E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Guard navigation</string>
+	<string>UIButtonTarget</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
